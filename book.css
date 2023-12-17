@@ -10,9 +10,8 @@ body {
     justify-content:flex-start;
     align-items: center;
     font-family: sans-serif;
-    background-color: powderblue !important;
+    background-image: url("dark4.jpg") ;
 }
-
 /* Book */
 .book {
 display: flex;
@@ -21,7 +20,9 @@ display: flex;
     height: 60vh;
     transition: transform 0.5s;
     max-width: 100%;
-    left: 00px !important; /* Ensure the book is responsive */
+    align-content: center !important;
+    left: 550px !important;
+    /* Ensure the book is responsive */
     
 }
 
@@ -33,12 +34,15 @@ h1{
     text-align: center;
 }
 h3{
-  font-size:medium !important;
+  font-size:large !important;
   font-family:'Times New Roman', Times, serif;
   font-style:italic;
   text-align: center;
   margin-bottom: 700px !important;
-  color:#9dccdf
+  color:#fefefe;
+  position: absolute;
+  top:10px;
+  left: 10px;
 }
 
 
@@ -102,12 +106,37 @@ h2{
 /* Controller Buttons */
 button {
     border: none;
-    background-color: tansparent;
+    background-color: transparent;
     cursor: pointer;
-    margin-top: 305px !important;
    
+    
     transition: transform 0.5s;
 }
+#next-btn {
+  position:absolute;
+  top: 300px;
+ right: 400px;
+  margin: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  background-color: #000000;
+}
+
+#prev-btn {
+  position: absolute;
+  top: 300px;
+ left: 400px;
+  margin: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  background-color: #000000;
+}
+
+
+
+
 
 button:focus {
     outline: none;
@@ -172,7 +201,7 @@ i {
 
 
 body {
-    background-color: rgb(35, 28, 28) !important;
+  background-image: 'dark.jpg'!important;
     font-weight: 600;
     text-align: center !important;
     color: rgb(0, 0, 0);
@@ -250,6 +279,10 @@ body {
     left: 300px;
   }
   #f1{
+    background-color: rgb(160, 75, 75)
+  }
+
+  #b1{
     background-color: rgb(160, 75, 75)
   }
 
